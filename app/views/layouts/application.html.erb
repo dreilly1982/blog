@@ -3,14 +3,15 @@
   <head>
     <title>Blog</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
   </head>
 
   <body>
     <div id="app"></div>
     <%= yield %>
+    <%= stylesheet_pack_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
   </body>
 </html>

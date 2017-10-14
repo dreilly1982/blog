@@ -8,6 +8,8 @@ Example of Rails 5 /w webpacker + Vue app.
 
 Basic Blog with categories, posts, comments
 
+![Screens](https://raw.githubusercontent.com/askamiroff/blog/master/public/preview.gif)
+
 * **Frontend**
   * **Javascript**
     * [Vue.js](https://vuejs.org/)
